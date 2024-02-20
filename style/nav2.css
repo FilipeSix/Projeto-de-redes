@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    box-sizing: border-box;
+    
+}
+p{
+    font-family: "Roboto", sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    word-spacing: 1px;
+    padding: 20px 20px;
+}
+
+section{
+    min-height: 100vh;
+}
+#title--pagina{
+    z-index: 2;
+    padding: 1.3%;
+    margin-top: -45%;
+    z-index: 2;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    width: 100%;
+}
+#main{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13%;
+}
+#nova-secao{
+    z-index: 3;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 100vh;
+    background-repeat: repeat-y;
+}
+.card{
+    z-index: 2;
+    color: black;
+    margin: 50px;
+    background-color: rgb(219, 214, 214);
+    width: 400px;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card>img{
+    z-index: 2;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.titulo{
+    z-index: 2;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#particles-js {
+    height: 99%;
+    position: absolute;
+}
