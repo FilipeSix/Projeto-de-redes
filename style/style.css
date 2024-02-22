@@ -10,11 +10,12 @@
 	font-size: 100%;
 	vertical-align: baseline;
     box-sizing: border-box;
+   
     
 }
 a{
     text-decoration: none;
-
+    
 }
 
 #primarypage{
@@ -23,7 +24,6 @@ a{
     position: relative;
     z-index: 1;
     background-size: cover;
-    
 
 }
   
@@ -129,7 +129,7 @@ li{
     margin-top: 12%;
     border-radius: 50px;
     border-style: groove;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 40px 10px, rgba(0, 0, 0, 0.1) 0px 10px 10px 10px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    
    
 }
 
@@ -175,6 +175,10 @@ li{
     
 }
 
+
+
+
+
 @media screen and (max-width: 1600px){
     .vlibras{
         margin-top: 50%;
@@ -209,53 +213,14 @@ li{
         font-size: 1.7rem;
     }
 }
-@media screen and (max-width: 768px){
-    .cabecalho{
-        display: none;
-    }
-    .line{
-        width: 10%;
-        padding-top: 8%;
-        padding-left: 40%;
-        margin-left: 10%;
-    }
-    .subtitulo{
-        font-size: 1.4rem;
-    }
-    .imagem--central{
-        margin-top: 35%;
-        width: 36%;
-        margin-left: 56%;
-    }
-    .paragrafo--subtitulo{
-        width: 50%;
-        font-size: 0.9rem;
-        margin-top: 40%;
-    }
-    .vlibras{
-        margin-top: 80%;
-        font-size: 0.9rem;
-        width: 60%;
-    }
-    .subtitulo--conteudo{
-        font-size: 1.4rem;
-        width: 35%;
-        margin-top: 30%;
-    }
-    .titulo--conteudo{
-        font-size: 1.3rem;
-        width:  40rem;
-        text-align: center;
-        margin-top: 28%;
-    }
-}
+
 @media screen and (max-width: 1366px){
     .cabecalho--pagina{
         position: relative;
         z-index: 2;
     }
     .vlibras{
-        margin-top: 40%;
+        margin-top: 46%;
     }
     .line{
         width: 80%;
@@ -295,6 +260,54 @@ li{
     }
     
 }
+
+@media screen and (max-width: 768px){
+    .titulo--conteudo{
+        font-size: 1.2rem;
+        width: 34rem;
+        margin-top: 29%;
+        position: relative;
+        display: flex;
+    }
+    .subtitulo--conteudo{
+        font-size: 1.4rem;
+        margin-top: 28%;
+        width: 30%;
+    }
+    .paragrafo--subtitulo{
+        width: 60%;
+        margin-top: 34%;
+        
+    }
+    .vlibras{
+        margin-top: 90%;
+        width: 55%;
+    }
+    .imagem--central{
+        margin-top: 30%;
+        left: 3%;
+    }
+    .line{
+        padding-top: 10%;
+    }
+    .cabecalho--pagina{
+        font-size: 1rem;
+        
+    }
+    .cabecalho{
+        word-spacing: 1rem;
+        margin-top: 12%;
+        position: absolute;
+        padding: 1.rem;
+        margin-left: 58%;
+        z-index: 2;
+    }
+    .subtitulo{
+        margin-top: 6%;
+    }
+   
+}
+
 #Snow-js{
     position: absolute;
     height: 10%;

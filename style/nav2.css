@@ -74,3 +74,19 @@ section{
     height: 99%;
     position: absolute;
 }
+
+
+@media screen and (max-width: 768px){
+    #title--pagina{
+        margin-top: -80%;
+        font-size: 1.3rem;
+        position: absolute;
+    }
+    .card{
+        z-index: 3;
+        margin: 15px;
+        width: 30rem;
+        height: 430px;
+        margin-top: 20%;
+    }
+}
