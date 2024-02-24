@@ -90,3 +90,36 @@ section{
         margin-top: 20%;
     }
 }
+
+@media screen and (max-width: 390px){
+
+    #title--pagina{
+        top: 56%;
+        font-size: 1rem;
+        position: absolute;
+    }
+    .card{
+        z-index: 3;
+        margin: 1px;
+        width: 30rem;
+        height: 390px;
+        margin-top: 40%;
+        overflow-x: hidden;
+    }
+    .titulo{
+        font-size: 0.8rem;
+
+    }
+    p{
+        font-size: 0.9rem;
+        padding-top: 30px;
+        text-align: left;
+        word-spacing: 0px;
+        
+        width: 110%;
+    }
+    #particles-js {
+       height: 0;
+    }
+    
+}

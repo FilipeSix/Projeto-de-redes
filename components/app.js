@@ -137,10 +137,10 @@ var particlesConfig = {
   "particles": {
     
       "number": {
-          "value": 50, // Reduza o número de partículas
+          "value": 5, // Reduza o número de partículas
           "density": {
               "enable": true,
-              "value_area": 800 // Ajuste o valor da área para controlar a densidade
+              "value_area": 500 // Ajuste o valor da área para controlar a densidade
           }
       },
       "line_linked": {
