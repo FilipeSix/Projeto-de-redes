@@ -360,6 +360,112 @@ li{
       margin: 45% 0% 0% -2%;
     }
   }
+
+  @media screen and (max-width: 412px){
+
+    .h1--container  { 
+       right: 0%;
+    }
+
+    .line{
+      margin: 30px 10px 10px 10px;
+      position: absolute;
+      width: 97%;
+      
+    }
+    .titulo--conteudo{
+    position: relative;
+    font-size: 0.87rem;
+    right: 0px;
+    text-align: center;
+    padding-top: 40%;
+    white-space: nowrap;
+    }
+    .subtitulo--conteudo{
+      font-size: 1rem;
+      margin-top: 64%;
+      width: 34%;
+    }
+    .subtitulo{
+      font-size: 0.9rem;
+      margin: 50px 10px 10px 10px;
+    }
+    .cabecalho--pagina{
+      font-size: 0.8rem;
+    }
+    .cabecalho{
+      margin-top: 21%;
+      word-spacing: 0.8rem;
+      margin-left: 53%;
+    }
+    .paragrafo--subtitulo{
+      font-size: 0.8rem;
+      margin-top: 75%;
+      width: 90%; /* Alterando a largura para 90% para evitar a barra de rolagem horizontal */
+      padding: 0 5px; /* Adicionando padding para evitar que o conteúdo encoste nas bordas */
+    }
+    .vlibras{
+      margin-top: 34rem;
+      width: 90%;
+      font-size: 1rem;
+    }
+    .imagem--central{
+      margin: 45% 0% 0% -2%;
+    }
+  }
+
+  @media screen and (max-width: 360px){
+
+    .h1--container  { 
+       right: 0%;
+    }
+
+    .line{
+      margin: 30px 10px 10px 10px;
+      position: absolute;
+      width: 97%;
+      
+    }
+    .titulo--conteudo{
+    position: relative;
+    font-size: 0.77rem;
+    right: 0px;
+    text-align: center;
+    padding-top: 40%;
+    white-space: nowrap;
+    }
+    .subtitulo--conteudo{
+      font-size: 1rem;
+      margin-top: 64%;
+      width: 34%;
+    }
+    .subtitulo{
+      font-size: 0.9rem;
+      margin: 50px 10px 10px 10px;
+    }
+    .cabecalho--pagina{
+      font-size: 0.7rem;
+    }
+    .cabecalho{
+      margin-top: 23%;
+      word-spacing: 0.84rem;
+      margin-left: 54%;
+    }
+    .paragrafo--subtitulo{
+      font-size: 0.8rem;
+      margin-top: 75%;
+      width: 90%; /* Alterando a largura para 90% para evitar a barra de rolagem horizontal */
+      padding: 0 5px; /* Adicionando padding para evitar que o conteúdo encoste nas bordas */
+    }
+    .vlibras{
+      margin-top: 34rem;
+      width: 90%;
+      font-size: 0.8rem;
+    }
+    .imagem--central{
+      margin: 40% 0% 0% -2%;
+    }
+  }
   
 
 
