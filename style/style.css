@@ -2,50 +2,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-*{
+* {
     margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
     box-sizing: border-box;
-   
-    
-}
-a{
-    text-decoration: none;
-    
 }
 
-#primarypage{
-    background-image: conic-gradient(from 270deg at 100% 15%, rgb(89, 47, 194), rgb(35, 13, 54), rgb(44, 54, 106)); 
+a {
+    text-decoration: none;
+}
+
+#primarypage {
+    background-image: conic-gradient(from 270deg at 100% 15%, rgb(89, 47, 194), rgb(35, 13, 54), rgb(44, 54, 106));
     height: 100vh;
     position: relative;
     z-index: 1;
     background-repeat: no-repeat;
-
 }
-  
-.cabecalho{
-    
+
+.cabecalho {
     word-spacing: 3rem;
     margin-top: 7%;
     position: absolute;
-    padding: 1.rem;
+    padding: 1rem;
     margin-left: 66%;
     z-index: 2;
-    
 }
-.cabecalho--pagina:hover{
+
+.cabecalho--pagina:hover {
     background-image: linear-gradient(60deg, #74148b, #d8e2e6);
     background-clip: text;
     color: transparent;
-    
 }
 
-
-.cabecalho--pagina{
+.cabecalho--pagina {
     font-family: "Roboto", sans-serif;
     margin-top: -18%;
     text-decoration: none;
@@ -53,10 +46,11 @@ a{
     font-size: 1.4rem;
 }
 
-li{
+li {
     list-style: none;
 }
-.h1--container{
+
+.h1--container {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -65,7 +59,8 @@ li{
     align-items: center;
     position: absolute;
 }
-.titulo--conteudo{
+
+.titulo--conteudo {
     margin-top: 30%;
     font-size: 1.8rem;
     font-family: "Roboto", sans-serif;
@@ -75,7 +70,8 @@ li{
     color: transparent;
     z-index: 1;
 }
-.subtitulo--conteudo{
+
+.subtitulo--conteudo {
     position: absolute;
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
@@ -94,9 +90,9 @@ li{
     font-size: 1.6rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ebe8e9;
-}  
+}
 
-.paragrafo--subtitulo{
+.paragrafo--subtitulo {
     position: absolute;
     font-size: 1.2rem;
     font-family: "Roboto", sans-serif;
@@ -107,33 +103,29 @@ li{
     margin-top: 20%;
     text-align: justify;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-    
+
     &::before {
         content: "";
         position: absolute;
-        left: -12px; /* Ajusta a posição horizontal da linha */
+        left: -0.75rem; /* Ajusta a posição horizontal da linha */
         top: 0;
         bottom: 0;
-        width: 5px; /* Largura da linha */
+        width: 0.25rem; /* Largura da linha */
         background-color: #1465c2; /* Cor da linha */
         height: 40%;
         margin-top: 4%;
-      }
+    }
 }
 
-
-
-.imagem--central{
+.imagem--central {
     position: absolute;
     margin-left: 60%;
     margin-top: 12%;
-    border-radius: 50px;
+    border-radius: 2rem;
     border-style: groove;
-    
-   
 }
 
-.line{
+.line {
     padding-top: 6%;
     margin: auto;
     justify-content: center;
@@ -142,7 +134,8 @@ li{
     border-bottom: 0.3rem solid rgb(103, 36, 165);
     border-radius: 0.2rem;
 }
-.vlibras{
+
+.vlibras {
     position: absolute;
     font-size: 1.2rem;
     font-family: "Roboto", sans-serif;
@@ -151,328 +144,309 @@ li{
     word-spacing: 1px;
     margin-left: 2%;
     margin-top: 42%;
-    text-align: justify; 
+    text-align: justify;
     box-shadow: rgba(25, 1, 39, 0.788) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-    &::before{
+    &::before {
         content: "";
         position: absolute;
-        left: -10px; /* Ajusta a posição horizontal da linha */
+        left: -0.625rem; /* Ajusta a posição horizontal da linha */
         top: 0;
         bottom: 0;
-        width: 5px; /* Largura da linha */
+        width: 0.15rem; /* Largura da linha */
         background-color: #1465c2; /* Cor da linha */
         height: 90%;
         margin-top: 0%;
     }
 }
-.vlibras--link{
+
+.vlibras--link {
     color: #F6F6F6F6;
-    background-color:  rgb(117, 0, 250);
-    padding: 0px 10px 0px 10px;
-    border-radius: 10px;
-    
-    
+    background-color: rgb(117, 0, 250);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
 }
 
-
-
-
-
-@media screen and (max-width: 1600px){
-    .vlibras{
+@media screen and (max-width: 1600px) {
+    .vlibras {
         margin-top: 50%;
     }
-    .line{
+    .line {
         width: 85%;
     }
-    .cabecalho{
+    .cabecalho {
         word-spacing: 3rem;
         margin-top: 8%;
         position: absolute;
-        padding: 1.rem;
-        margin-left: 60%
+        padding: 1rem;
+        margin-left: 60%;
     }
 
-    .imagem--central{
+    .imagem--central {
         position: absolute;
         width: 35%;
         margin-left: 60%;
         margin-top: 15%;
     }
-    .paragrafo--subtitulo{
+    .paragrafo--subtitulo {
         width: 35%;
         font-size: 1rem;
         margin-top: 26%;
     }
-    .subtitulo--conteudo{
+    .subtitulo--conteudo {
         margin-top: 20%;
     }
-    .titulo--conteudo{
+    .titulo--conteudo {
         width: 100%;
         font-size: 1.7rem;
     }
 }
 
-@media screen and (max-width: 1366px){
-    .cabecalho--pagina{
+@media screen and (max-width: 1366px) {
+    .cabecalho--pagina {
         position: relative;
         z-index: 2;
     }
-    .vlibras{
+    .vlibras {
         margin-top: 46%;
+        width: 35%;
     }
-    .line{
+    .line {
         width: 80%;
     }
-    .cabecalho{
+    .cabecalho {
         word-spacing: 3rem;
         margin-top: 8%;
         position: absolute;
-        padding: 1.rem;
-        margin-left: 60%
+        padding: 1rem;
+        margin-left: 60%;
     }
 
-    .imagem--central{
+    .imagem--central {
         position: absolute;
         width: 35%;
         margin-left: 60%;
         margin-top: 10%;
     }
-    .paragrafo--subtitulo{
+    .paragrafo--subtitulo {
         width: 35%;
         font-size: 0.9rem;
         margin-top: 20%;
         word-spacing: 1.1px;
     }
-    .subtitulo--conteudo{
+    .subtitulo--conteudo {
         margin-top: 15%;
     }
-    .titulo--conteudo{
+    .titulo--conteudo {
         z-index: 1;
         width: 100%;
         font-size: 1.5rem;
         margin-top: 30%;
         position: relative;
     }
-    .subtitulo{
+    .subtitulo {
         font-size: 1.3rem;
     }
-    
 }
 
-@media screen and (max-width: 768px){
-    .titulo--conteudo{
+@media screen and (max-width: 768px) {
+    .titulo--conteudo {
         font-size: 1.2rem;
         width: 34rem;
         margin-top: 29%;
         position: relative;
         display: flex;
     }
-    .subtitulo--conteudo{
+    .subtitulo--conteudo {
         font-size: 1.4rem;
         margin-top: 28%;
         width: 30%;
     }
-    .paragrafo--subtitulo{
+    .paragrafo--subtitulo {
         width: 60%;
         margin-top: 34%;
-        
     }
-    .vlibras{
+    .vlibras {
         margin-top: 90%;
         width: 55%;
     }
-    .imagem--central{
+    .imagem--central {
         margin-top: 30%;
         left: 3%;
     }
-    .line{
+    .line {
         padding-top: 10%;
     }
-    .cabecalho--pagina{
+    .cabecalho--pagina {
         font-size: 1rem;
-        
     }
-    .cabecalho{
+    .cabecalho {
         word-spacing: 1rem;
         margin-top: 12%;
         position: absolute;
-        padding: 1.rem;
+        padding: 1rem;
         margin-left: 58%;
         z-index: 2;
     }
-    .subtitulo{
+    .subtitulo {
         margin-top: 6%;
     }
-   
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 390px) {
+    .h1--container {
+        right: 0%;
+    }
+    .line {
+        margin: 2rem 1rem 1rem 1rem;
+        position: absolute;
+        width: 97%;
+    }
+    .titulo--conteudo {
+        position: relative;
+        font-size: 0.87rem;
+        right: 0px;
+        text-align: center;
+        padding-top: 40%;
+        white-space: nowrap;
+    }
+    .subtitulo--conteudo {
+        font-size: 1rem;
+        margin-top: 64%;
+        width: 34%;
+    }
+    .subtitulo {
+        font-size: 0.9rem;
+        margin: 2rem 1rem 1rem 1rem;
+    }
+    .cabecalho--pagina {
+        font-size: 0.8rem;
+    }
+    .cabecalho {
+        margin-top: 21%;
+        word-spacing: 0.8rem;
+        margin-left: 53%;
+    }
+    .paragrafo--subtitulo {
+        font-size: 0.8rem;
+        margin-top: 75%;
+        width: 90%;
+        padding: 0 0.5rem;
+    }
+    .vlibras {
+        margin-top: 34rem;
+        width: 90%;
+        font-size: 1rem;
+    }
+    .imagem--central {
+        margin: 45% 0% 0% -2%;
+    }
+}
 
-    .h1--container  { 
-       right: 0%;
+@media screen and (max-width: 412px) {
+    .h1--container {
+        right: 0%;
     }
+    .line {
+        margin: 2rem 1rem 1rem 1rem;
+        position: absolute;
+        width: 97%;
+    }
+    .titulo--conteudo {
+        position: relative;
+        font-size: 0.87rem;
+        right: 0px;
+        text-align: center;
+        padding-top: 40%;
+        white-space: nowrap;
+    }
+    .subtitulo--conteudo {
+        font-size: 1rem;
+        margin-top: 64%;
+        width: 34%;
+    }
+    .subtitulo {
+        font-size: 0.9rem;
+        margin: 2rem 1rem 1rem 1rem;
+    }
+    .cabecalho--pagina {
+        font-size: 0.8rem;
+    }
+    .cabecalho {
+        margin-top: 21%;
+        word-spacing: 0.8rem;
+        margin-left: 53%;
+    }
+    .paragrafo--subtitulo {
+        font-size: 0.8rem;
+        margin-top: 75%;
+        width: 90%;
+        padding: 0 0.5rem;
+    }
+    .vlibras {
+        margin-top: 34rem;
+        width: 90%;
+        font-size: 1rem;
+    }
+    .imagem--central {
+        margin: 45% 0% 0% -2%;
+    }
+}
 
-    .line{
-      margin: 30px 10px 10px 10px;
-      position: absolute;
-      width: 97%;
-      
+@media screen and (max-width: 360px) {
+    .h1--container {
+        right: 0%;
     }
-    .titulo--conteudo{
-    position: relative;
-    font-size: 0.87rem;
-    right: 0px;
-    text-align: center;
-    padding-top: 40%;
-    white-space: nowrap;
+    .line {
+        margin: 2rem 1rem 1rem 1rem;
+        position: absolute;
+        width: 97%;
     }
-    .subtitulo--conteudo{
-      font-size: 1rem;
-      margin-top: 64%;
-      width: 34%;
+    .titulo--conteudo {
+        position: relative;
+        font-size: 0.77rem;
+        right: 0px;
+        text-align: center;
+        padding-top: 40%;
+        white-space: nowrap;
     }
-    .subtitulo{
-      font-size: 0.9rem;
-      margin: 50px 10px 10px 10px;
+    .subtitulo--conteudo {
+        font-size: 1rem;
+        margin-top: 64%;
+        width: 34%;
     }
-    .cabecalho--pagina{
-      font-size: 0.8rem;
+    .subtitulo {
+        font-size: 0.9rem;
+        margin: 2rem 1rem 1rem 1rem;
     }
-    .cabecalho{
-      margin-top: 21%;
-      word-spacing: 0.8rem;
-      margin-left: 53%;
+    .cabecalho--pagina {
+        font-size: 0.7rem;
     }
-    .paragrafo--subtitulo{
-      font-size: 0.8rem;
-      margin-top: 75%;
-      width: 90%; /* Alterando a largura para 90% para evitar a barra de rolagem horizontal */
-      padding: 0 5px; /* Adicionando padding para evitar que o conteúdo encoste nas bordas */
+    .cabecalho {
+        margin-top: 23%;
+        word-spacing: 0.84rem;
+        margin-left: 54%;
     }
-    .vlibras{
-      margin-top: 34rem;
-      width: 90%;
-      font-size: 1rem;
+    .paragrafo--subtitulo {
+        font-size: 0.8rem;
+        margin-top: 75%;
+        width: 90%;
+        padding: 0 0.5rem;
     }
-    .imagem--central{
-      margin: 45% 0% 0% -2%;
+    .vlibras {
+        margin-top: 34rem;
+        width: 90%;
+        font-size: 0.8rem;
     }
-  }
+    .imagem--central {
+        margin: 40% 0% 0% -2%;
+    }
+}
 
-  @media screen and (max-width: 412px){
-
-    .h1--container  { 
-       right: 0%;
-    }
-
-    .line{
-      margin: 30px 10px 10px 10px;
-      position: absolute;
-      width: 97%;
-      
-    }
-    .titulo--conteudo{
-    position: relative;
-    font-size: 0.87rem;
-    right: 0px;
-    text-align: center;
-    padding-top: 40%;
-    white-space: nowrap;
-    }
-    .subtitulo--conteudo{
-      font-size: 1rem;
-      margin-top: 64%;
-      width: 34%;
-    }
-    .subtitulo{
-      font-size: 0.9rem;
-      margin: 50px 10px 10px 10px;
-    }
-    .cabecalho--pagina{
-      font-size: 0.8rem;
-    }
-    .cabecalho{
-      margin-top: 21%;
-      word-spacing: 0.8rem;
-      margin-left: 53%;
-    }
-    .paragrafo--subtitulo{
-      font-size: 0.8rem;
-      margin-top: 75%;
-      width: 90%; /* Alterando a largura para 90% para evitar a barra de rolagem horizontal */
-      padding: 0 5px; /* Adicionando padding para evitar que o conteúdo encoste nas bordas */
-    }
-    .vlibras{
-      margin-top: 34rem;
-      width: 90%;
-      font-size: 1rem;
-    }
-    .imagem--central{
-      margin: 45% 0% 0% -2%;
-    }
-  }
-
-  @media screen and (max-width: 360px){
-
-    .h1--container  { 
-       right: 0%;
-    }
-
-    .line{
-      margin: 30px 10px 10px 10px;
-      position: absolute;
-      width: 97%;
-      
-    }
-    .titulo--conteudo{
-    position: relative;
-    font-size: 0.77rem;
-    right: 0px;
-    text-align: center;
-    padding-top: 40%;
-    white-space: nowrap;
-    }
-    .subtitulo--conteudo{
-      font-size: 1rem;
-      margin-top: 64%;
-      width: 34%;
-    }
-    .subtitulo{
-      font-size: 0.9rem;
-      margin: 50px 10px 10px 10px;
-    }
-    .cabecalho--pagina{
-      font-size: 0.7rem;
-    }
-    .cabecalho{
-      margin-top: 23%;
-      word-spacing: 0.84rem;
-      margin-left: 54%;
-    }
-    .paragrafo--subtitulo{
-      font-size: 0.8rem;
-      margin-top: 75%;
-      width: 90%; /* Alterando a largura para 90% para evitar a barra de rolagem horizontal */
-      padding: 0 5px; /* Adicionando padding para evitar que o conteúdo encoste nas bordas */
-    }
-    .vlibras{
-      margin-top: 34rem;
-      width: 90%;
-      font-size: 0.8rem;
-    }
-    .imagem--central{
-      margin: 40% 0% 0% -2%;
-    }
-  }
-  
-
-
-
-#Snow-js{
+#Snow-js {
     position: absolute;
     height: 10%;
     width: 100%;
     top: 1%;
 }
+  
