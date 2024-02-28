@@ -23,7 +23,7 @@ $(document).ready(function() {
         }
     });
 
-    // Adicionar ação de clique para rolar suavemente de volta ao topo
+    // Adicionar ação de clique para rolar de volta ao topo
     $('#up').click(function() {
         $('html, body').animate({ scrollTop: 0 }, 'fast');
         return false;

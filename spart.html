@@ -6,13 +6,13 @@
     <title>Projeto Integrador</title>
     <link rel="stylesheet" href="style/source/styles/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style/source/styles/heading.css">
-    <link rel="stylesheet" href="style/source/styles/main-page/mainpage.css">
-    <link rel="stylesheet" href="style/source/styles/fontes.css">
+    <link rel="stylesheet" href="style/source/styles/header.css">
+    <link rel="stylesheet" href="style/source/styles/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style/source/styles/animation.css">
 </head>
 <body> 
-    <div vw class="enabled">    
+    <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
           <div class="vw-plugin-top-wrapper"></div>
@@ -22,20 +22,38 @@
       <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
       </script>
-   <header>
-        <nav class="topbar">
-            <section class="topbar-content">
-                <ul>
-                    <li><a href="index.html"><img src="style/source/pictures/logoredes.png" alt="Logo do curso de redes."></a></li>
-                    <li><h1>Para aprender mais</h1></li>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="apps.html">Apps</a></li>
-                    <li><a href="videos.html">Vídeos</a></li>
-                    <li><a href="spart.html">Sobre</a></li>
-                </ul>
-            </section>
-        </nav>
-    </header>
+    <div class="area">
+       <header>
+            <nav class="topbar">
+                <section class="topbar-content">
+                    <ul>
+                        <li><a href="index.html"><img src="style/source/pictures/logoredes.png" alt="Logo do curso de redes."></a></li>
+                        <li><h1>Para aprender mais</h1></li>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="apps.html">Apps</a></li>
+                        <li><a href="videos.html">Vídeos</a></li>
+                        <li><a href="spart.html">Sobre</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </header>
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+    </div>
     <main>
         <div class="main-container">
             <section class="topic-1">
@@ -43,14 +61,14 @@
                         <i class="fa-solid fa-chevron-up"></i>
                         <p>voltar ao topo</p>
                     </a>
-                    <div class="text">
-                        <h1 id="t1tle">A importância de aprender a se comunicar com eles:</h1>
-                        <p id="t1xt">Comunicar-se eficazmente com pessoas com deficiência é fundamental para construir uma sociedade inclusiva. Ao aprender a compreender suas necessidades e explorar a linguagem de sinais, não apenas derrubamos barreiras de comunicação, mas também promovemos uma interação mais rica e significativa. Investir na empatia e na aprendizagem de formas inclusivas de comunicação é um passo crucial para construir uma comunidade onde todos se sintam ouvidos, respeitados e valorizados por suas contribuições únicas.</p>
+                    <div class="text-box">
+                        <h1 class="title">A importância de aprender a se comunicar com eles:</h1>
+                        <p class="text">Comunicar-se eficazmente com pessoas com deficiência é fundamental para construir uma sociedade inclusiva. Ao aprender a compreender suas necessidades e explorar a linguagem de sinais, não apenas derrubamos barreiras de comunicação, mas também promovemos uma interação mais rica e significativa. Investir na empatia e na aprendizagem de formas inclusivas de comunicação é um passo crucial para construir uma comunidade onde todos se sintam ouvidos, respeitados e valorizados por suas contribuições únicas.</p>
                     </div>
                     <img src="https://www.libras.com.br/ct__images/artigos/alfabeto-manual/alfabeto-manual.png" alt="Alfabeto de libras.">
             </section>
             <section data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="topic-2">
-                    <h1>Tipos de deficiência:</h1>
+                    <h1 class="title">Tipos de deficiência:</h1>
                     <ul>
                         <li>
                             <h2>Deficiência auditiva</h2>
@@ -74,19 +92,17 @@
                         </li>
                     </ul>
             </section>
-            <div class="background">
-                <section class="topic-3">
-                    <h1>Seções para aplicativos e vídeos destinados a ajudar:</h1>
-                    <ul>
-                        <li><a href="apps.html" id="app">Apps</a></li>
-                        <li><a href="videos.html" id="video">Vídeos</a></li>
-                    </ul>
-                </section>
-            </div>
+            <section class="topic-3">
+                <h1 class="title">Seções para aplicativos e vídeos destinados a ajudar:</h1>
+                <ul>
+                    <li><a href="apps.html" id="app">Apps</a></li>
+                    <li><a href="videos.html" id="video">Vídeos</a></li>
+                </ul>
+            </section>
         </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="style/source/js/script.js"></script>
+    <script src="style/source/js/top-button.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
